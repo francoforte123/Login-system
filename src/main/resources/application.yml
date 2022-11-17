@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+  mail:
+    host: smtp.gmail.com
+    port: 600
+    username: f4kemailt3st@gmail.com
+    password: gizsemkyxbhpyqfp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
